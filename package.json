@@ -1,0 +1,30 @@
+{
+  "name": "zeroparadesdb-mcp",
+  "mcpName": "com.zeroparadesdb/mcp",
+  "version": "0.1.0",
+  "description": "MCP server for ZERO PARADES: For Dead Spies: look up skills, thoughts, items, characters, tasks, places, checks and dialogue, and build planner links, from zeroparadesdb.com in five languages.",
+  "homepage": "https://zeroparadesdb.com",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bin": {
+    "zeroparadesdb-mcp": "src/server.mjs"
+  },
+  "files": [
+    "src",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "zero-parades",
+    "zero-parades-for-dead-spies",
+    "game-database"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.5"
+  }
+}
