@@ -15,6 +15,15 @@ An unknown id or term answers `found: false` with the reason.
 
 ## Install
 
+From this directory:
+
+```sh
+npm install
+node src/server.mjs
+```
+
+Once published on npm:
+
 ```sh
 npx -y zeroparadesdb-mcp
 ```
