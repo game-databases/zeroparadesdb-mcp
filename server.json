@@ -4,8 +4,8 @@
   "title": "Zero Parades database",
   "description": "ZERO PARADES: For Dead Spies skills, thoughts, items, characters, places, checks, dialogue and planner links",
   "websiteUrl": "https://zeroparadesdb.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packages": [
-    { "registryType": "npm", "identifier": "zeroparadesdb-mcp", "version": "0.1.0", "transport": { "type": "stdio" } }
+    { "registryType": "npm", "identifier": "zeroparadesdb-mcp", "version": "0.1.1", "transport": { "type": "stdio" } }
   ]
 }
